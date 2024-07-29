@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="book_Style.css">
+    
+</head>
+<body>
+    <div class="n">
+        <h1> ABOUT BOOK's </h1>
+    </div>
+
+    <div class="store">
+        <div class="book-store">
+            <h2>The Secert</h2>
+            <h4>Rhonda Byrne</h4>
+            <p>The Secret is a 2006 self-help book by Rhonda Byrne, based on the earlier film of the same name. It is based on the belief of the pseudoscientific law of attraction, which claims that thought alone can influence objective circumstances within one's life.</p>
+            <button onclick="Delete(event)">Delete</button>
+        </div>
+    </div>
+    
+    <div class="popoverlay"></div>
+    <div class="popbox">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Name" id="book-name">
+            <input type="text" placeholder="Book Author" id="book-author">
+            <textarea placeholder="Book Summary" id="book-summary"></textarea>
+            <button id="add-book">ADD</button>
+            <button id="cancle">CANCLE</button>
+        </form>
+    </div>
+    <button class="add-button" id="add">+</button>
+    <script src="book.js"></script>
+</body>
+</html>
